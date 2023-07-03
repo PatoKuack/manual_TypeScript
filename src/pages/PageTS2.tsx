@@ -3,7 +3,7 @@ function PageTS2() {
     <>
     <section>
       <h2>Instalación.</h2>
-      <p>TypeScript se instala por proyecto (no de forma global), es decir, se isnstala como una dependencia de desarrollo.</p>
+      <p>TypeScript se instala por proyecto (no de forma global), es decir, se instala como una dependencia de desarrollo.</p>
       <p>Primero se inicializa el proyecto en git y en npm.</p>
       <code className="code-block">
         git init<br/>
@@ -32,6 +32,12 @@ function PageTS2() {
         </code>
       <p>Para que funcione el .editorconfig, en VisualStudioCode se instala la siguiente extensión: <a href="https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig" target="_blank" rel="noopener noreferrer">EditorConfig for VSCode</a></p>
     </section>
+    <footer>
+      <section>
+        <h2>Referencias:</h2>
+        <a href="https://francocarrara.notion.site/Curso-de-Fundamentos-de-TypeScript-30ed370135f049a1bd6786302bea9e81" target="_blank" rel="noopener noreferrer">Apuntes de un compañero I.</a>
+      </section>
+    </footer>
     </>
   );
 }

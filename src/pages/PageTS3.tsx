@@ -27,13 +27,30 @@ function PageTS3() {
         "compilerOptions": &#123;<br/>
           <div className="indent-2">"outDir": "./dist",</div>
           <div className="indent-2">"rootDir": "./src",</div>
+          <div className="indent-2">"strict": true,</div>
+          <div className="indent-2">"noImplicitAny": true,</div>
+          <div className="indent-2">"noImplicitReturns": true,</div>
         &#125;
       </code>
       <p>Para compilar el proyecto, se ejecuta, desde la terminal, el código:</p>
       <code className="code-block">npx tsc</code>
-      <p>Para evitar la compilación manual y continua, se ejecuta el comando:</p>
+      <p>Para evitar la compilación manual y hacer que sea automática y continua, se ejecuta el comando:</p>
       <code className="code-block">npx tsc --watch</code>
+      <p>Para ejecutar el código compilado (el compilado es el que está en la carpeta dist), se coloca en la terminal la instrucción:</p>
+      <code className="code-block">node dist/nombre_del_archivo.js</code>
     </section>
+    {/* <section>
+      <h2>Node.</h2>
+      <p>Para correr TS desde node se utiliza un paquete llamado <a href="https://typestrong.org/ts-node/" target="_blank" rel="noopener noreferrer">tsnode</a>, se instala con la instrucción <b>npm install -D ts-node</b></p>
+      <p>Después se coloca la instrucción <b>npx ts-node src/</b>archivo<b>.ts</b> para evitar transpilar el código a JavaScript y correrlo directamente desde la consola</p>
+      <p>Es recomendable utilizar este paquete solo del lado del backend por cuestriones de rendimiento.</p>
+    </section> */}
+    <footer>
+      <section>
+        <h2>Referencias:</h2>
+        <a href="https://francocarrara.notion.site/Curso-de-Fundamentos-de-TypeScript-30ed370135f049a1bd6786302bea9e81" target="_blank" rel="noopener noreferrer">Apuntes de un compañero I.</a>
+      </section>
+    </footer>
     </>
   );
 }

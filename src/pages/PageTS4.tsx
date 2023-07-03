@@ -10,6 +10,12 @@ function PageTS4() {
       <p>Los errores se mostrarán subrrayados con una franja roja.</p>
       <p>Con la extensión <a href="https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens" target="_blank" rel="noopener noreferrer">ErrorLens</a> se aprovecha mejor el analisis de errores.</p>
     </section>
+    <footer>
+      <section>
+        <h2>Referencias:</h2>
+        <a href="https://francocarrara.notion.site/Curso-de-Fundamentos-de-TypeScript-30ed370135f049a1bd6786302bea9e81" target="_blank" rel="noopener noreferrer">Apuntes de un compañero I.</a>
+      </section>
+    </footer>
     </>
   );
 }

@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .code-block {
+    @apply block w-fit p-4 mx-auto bg-transparent-dark md:mx-0;
+  }
+  .block-duo {
+    @apply flex flex-col gap-4 md:flex-row;
+  }
+  a {
+    @apply text-link;
+  }
+}
