@@ -30,7 +30,7 @@ function Menu() {
         onClick={()=>setHideMenu(true)}
       ></div>
 
-      <nav className={`fixed top-[50px] right-0 w-max max-w-[75vw] h-[calc(100vh-50px)] bg-shadow border-2 border-r-0 border-current border-solid rounded-l-2xl transition-transform z-10 sm:top-[70px] sm:max-w-xs sm:h-[calc(100vh-70px)] lg:top-[75px] lg:h-[calc(100vh-75px)] ${hideMenu && 'translate-x-full'}`}>
+      <nav className={`fixed top-[50px] right-0 w-max max-w-[75vw] h-[calc(100vh-50px)] bg-shadow border-2 border-r-0 border-current border-solid rounded-l-2xl transition-transform overflow-y-scroll z-10 sm:top-[70px] sm:max-w-xs sm:h-[calc(100vh-70px)] lg:top-[75px] lg:h-[calc(100vh-75px)] ${hideMenu && 'translate-x-full'}`}>
         <ol className='p-6 module'>
           <li>Introducción.
             <ol className='submodule'>
